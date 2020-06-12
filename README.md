@@ -1,0 +1,2 @@
+# film_search
+映画タイトルとともにpythonファイルを実行してSlackに関連情報をアップロード
