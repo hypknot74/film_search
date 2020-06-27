@@ -5,16 +5,16 @@
 ## 説明
 ※Hubotがインストール、設定されており、結果を返すSlackのチャンネルにもHubotが参加している状態を前提とする
 1. Hubotを起動する。(Slack上でHubotがログアウトしているときのみ)
-'''
+```
 $ HUBOT_SLACK_TOKEN=自分のHubotのトークン ./bin/hubot --adapter slack
-'''
+```
 2. ファイルの実行
-'''
+```
 $ python film_search.py [任意の文字列]
-'''
+```
 3. 結果
 チャンネルに以下の情報とIMDbの作品ページPDFが返ってくる。
-'''
+```
 邦題：
 原題：
 Filmarksの評価：
@@ -22,6 +22,6 @@ Filmarksの評価：
 ジャンル：
 FilmarksのURL：
 IMDbのURL：
-'''
+```
 ## デモ
 ![実行例](https://github.com/hypknot74/film_search/blob/master/result.jpeg)
